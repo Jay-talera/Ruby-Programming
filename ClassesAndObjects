@@ -1,0 +1,23 @@
+class Book
+  attr_accessor :title, :author, :pages
+  def initialize(title, author, pages)
+    puts "Creating a new Book"
+    @title = title
+    @author = author
+    @pages = pages
+  end
+  end
+
+
+# book2 = Book.new()
+# book2.title = "Harry Potter Part 2"
+# book2.author = "JK Rowling"
+# book2.pages = 650
+# puts book2.pages
+
+  
+  
+book1 = Book.new("Harry Potter","JK Rowling",400)
+
+puts book1.pages
+
